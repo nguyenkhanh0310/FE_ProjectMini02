@@ -15,11 +15,16 @@
     --font: "Raleway", sans-serif;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 body {
     font-family: var(--font);
     color: var(--color-text-one);
     line-height: 1.6;
     margin: 0;
+    overflow-x: hidden;
 }
 
 a {
